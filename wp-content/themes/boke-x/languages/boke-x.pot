@@ -1,0 +1,470 @@
+# Copyright (C) 2018 Revenue Lite
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: boke-x 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2018-08-12 12:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: 主题巴巴<youaregreat@163.com>\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"X-Poedit-SearchPath-0: .\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: "
+
+#: functions.php:36
+msgid "顶部导航菜单"
+msgstr ""
+
+#: functions.php:37
+msgid "底部导航菜单"
+msgstr ""
+
+#: functions.php:91
+msgid "右侧边栏"
+msgstr ""
+
+#: functions.php:93 functions.php:103 functions.php:112 functions.php:121
+#: functions.php:130
+msgid "在此处添加小工具"
+msgstr ""
+
+#: functions.php:101
+msgid "底部 1"
+msgstr ""
+
+#: functions.php:110
+msgid "底部 2"
+msgstr ""
+
+#: functions.php:119
+msgid "底部 3"
+msgstr ""
+
+#: functions.php:128
+msgid "底部 4"
+msgstr ""
+
+#: sidebar-2.php:34 searchform.php:3
+msgid "搜索"
+msgstr ""
+
+#: sidebar-2.php:35
+msgid "收起"
+msgstr ""
+
+#: 404.php:17
+msgid "未找到页面"
+msgstr ""
+
+#: 404.php:35
+msgid "常用分类目录"
+msgstr ""
+
+#: index.php:103 template-parts/entry-meta.php:29
+#: template-parts/entry-meta-single.php:33
+msgid "评论(0)"
+msgstr ""
+
+#: index.php:103 template-parts/entry-meta.php:29
+#: template-parts/entry-meta-single.php:33
+msgid "评论(1)"
+msgstr ""
+
+#: index.php:103 template-parts/entry-meta.php:29
+#: template-parts/entry-meta-single.php:33
+msgid "评论(%)"
+msgstr ""
+
+#: index.php:103 template-parts/entry-meta.php:29
+#: template-parts/entry-meta-single.php:33
+msgid "评论关闭"
+msgstr ""
+
+#: comments.php:31
+msgid "评论已关闭"
+msgstr ""
+
+#. %s: post title
+#: comments.php:43
+msgctxt "comments title"
+msgid "1条评论"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:47
+#, php-format
+msgctxt "comments title"
+msgid "%1$s条评论"
+msgid_plural "%1$s条评论"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63 comments.php:84
+msgid "评论分页"
+msgstr ""
+
+#: comments.php:66 comments.php:87 template-parts/pagination.php:2
+msgid "上一页"
+msgstr ""
+
+#: comments.php:67 comments.php:88 template-parts/pagination.php:2
+msgid "下一页"
+msgstr ""
+
+#. %s: search term
+#: search.php:23
+#, php-format
+msgid "\"%s\" 的搜索结果"
+msgstr ""
+
+#: footer.php:64
+msgid "主题巴巴原创"
+msgstr ""
+
+#: footer.php:82
+msgid "返回顶部"
+msgstr ""
+
+#: searchform.php:2
+msgid "请输入关键词"
+msgstr ""
+
+#: inc/post-like.php:32 inc/post-like.php:225
+msgid "点赞这篇文章"
+msgstr ""
+
+#: inc/post-like.php:33 inc/post-like.php:221
+msgid "取消点赞"
+msgstr ""
+
+#: inc/post-like.php:47
+msgid "Not permitted"
+msgstr ""
+
+#: inc/post-like.php:348
+msgid "0"
+msgstr ""
+
+#: inc/post-like.php:366
+msgid "You Like:"
+msgstr ""
+
+#: inc/post-like.php:392
+msgid "You do not like anything yet."
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "阅读"
+msgstr ""
+
+#: admin/customizer-options.php:44
+msgid "博客X主题设置"
+msgstr ""
+
+#: admin/customizer-options.php:50
+msgid "主题颜色"
+msgstr ""
+
+#: admin/customizer-options.php:58
+msgid "文章内容链接hover颜色"
+msgstr ""
+
+#: admin/customizer-options.php:66
+msgid "点赞颜色"
+msgstr ""
+
+#: admin/customizer-options.php:74
+msgid "网站布局"
+msgstr ""
+
+#: admin/customizer-options.php:83
+msgid "在网站顶部右侧显示搜索框"
+msgstr ""
+
+#: admin/customizer-options.php:91
+msgid "移动设备导航菜单文字"
+msgstr ""
+
+#: admin/customizer-options.php:94
+msgid "导航"
+msgstr ""
+
+#: admin/customizer-options.php:99
+msgid "在首页显示置顶文章（幻灯片+缩略图）"
+msgstr ""
+
+#: admin/customizer-options.php:107
+msgid "在幻灯片显示的置顶文章数"
+msgstr ""
+
+#: admin/customizer-options.php:115
+msgid "在幻灯片下方显示的置顶文章数"
+msgstr ""
+
+#: admin/customizer-options.php:123
+msgid "显示置顶文章飘带"
+msgstr ""
+
+#: admin/customizer-options.php:131
+msgid "置顶文章飘带文字"
+msgstr ""
+
+#: admin/customizer-options.php:134
+msgid "编辑推荐"
+msgstr ""
+
+#: admin/customizer-options.php:139
+msgid "在首页显示\"最多阅读/评论\"文章"
+msgstr ""
+
+#: admin/customizer-options.php:147
+msgid "在文章列表显示特色图片"
+msgstr ""
+
+#: admin/customizer-options.php:154
+msgid "将文章列表的标题字体设为粗体"
+msgstr ""
+
+#: admin/customizer-options.php:161
+msgid "在文章列表显示文章摘要"
+msgstr ""
+
+#: admin/customizer-options.php:169
+msgid "文章列表自动获取摘要字数"
+msgstr ""
+
+#: admin/customizer-options.php:177
+msgid "在文章列表显示文章所属分类目录"
+msgstr ""
+
+#: admin/customizer-options.php:185
+msgid "在文章列表显示文章发布时间"
+msgstr ""
+
+#: admin/customizer-options.php:193
+msgid "在文章列表显示点赞按钮"
+msgstr ""
+
+#: admin/customizer-options.php:201
+msgid "在文章列表显示浏览数"
+msgstr ""
+
+#: admin/customizer-options.php:209
+msgid "在文章列表显示评论数"
+msgstr ""
+
+#: admin/customizer-options.php:217
+msgid "在文章页面启用百度分享"
+msgstr ""
+
+#: admin/customizer-options.php:225
+msgid "在文章页面显示文章所属分类目录"
+msgstr ""
+
+#: admin/customizer-options.php:233
+msgid "在文章页面显示作者头像"
+msgstr ""
+
+#: admin/customizer-options.php:241
+msgid "在文章页面显示作者名字"
+msgstr ""
+
+#: admin/customizer-options.php:249
+msgid "在文章页面显示文章发布时间"
+msgstr ""
+
+#: admin/customizer-options.php:257
+msgid "在文章页面显示浏览数"
+msgstr ""
+
+#: admin/customizer-options.php:265
+msgid "在文章页面显示评论数"
+msgstr ""
+
+#: admin/customizer-options.php:273
+msgid "在文章页面(内容顶部)显示特色图片"
+msgstr ""
+
+#: admin/customizer-options.php:281
+msgid "在文章页面(内容底部)显示点赞按钮"
+msgstr ""
+
+#: admin/customizer-options.php:289
+msgid "在文章页面(内容底部)显示打赏按钮"
+msgstr ""
+
+#: admin/customizer-options.php:297
+msgid "在文章页面显示作者说明"
+msgstr ""
+
+#: admin/customizer-options.php:305
+msgid "在文章页面显示相关文章"
+msgstr ""
+
+#: admin/customizer-options.php:313
+msgid "在文章页显示热门文章"
+msgstr ""
+
+#: admin/customizer-options.php:321
+msgid "在网站底部右侧显示“返回顶部”按钮"
+msgstr ""
+
+#: admin/customizer-options.php:345
+msgid "网站底部版权信息/链接"
+msgstr ""
+
+#. %s: Name of current post.
+#: template-parts/content-single.php:48
+#, php-format
+msgid "阅读全文 %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-single.php:53 template-parts/content-page.php:22
+msgid "分页:"
+msgstr ""
+
+#: template-parts/content-single.php:63
+msgid "标签:"
+msgstr ""
+
+#. %s: Name of current post
+#: template-parts/content-single.php:69 template-parts/content-page.php:34
+#, php-format
+msgid "编辑 %s"
+msgstr ""
+
+#: template-parts/content-single.php:139
+msgid "关于作者:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "找不到相关结果"
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "准备好发布您的第一篇文章了吗?"
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "现在开始"
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid "您输入的关键字无相关结果，请尝试其他关键字。"
+msgstr ""
+
+#: template-parts/content-none.php:32
+msgid "无相关结果，请返回首页，或输入关键字搜索相应结果。"
+msgstr ""
+
+#: inc/widgets/widget-random.php:23
+msgid "显示随机的文章（带缩略图）"
+msgstr ""
+
+#. $this->id_base
+#: inc/widgets/widget-random.php:29
+msgid "&raquo; 随机文章"
+msgstr ""
+
+#: inc/widgets/widget-random.php:121
+msgid "随机文章"
+msgstr ""
+
+#: inc/widgets/widget-random.php:131 inc/widgets/widget-popular.php:156
+#: inc/widgets/widget-recent.php:155 inc/widgets/widget-views.php:132
+#: inc/widgets/widget-ad.php:97
+msgid "标题"
+msgstr ""
+
+#: inc/widgets/widget-random.php:138 inc/widgets/widget-popular.php:163
+#: inc/widgets/widget-recent.php:162 inc/widgets/widget-views.php:139
+msgid "要显示的文章数"
+msgstr ""
+
+#: inc/widgets/widget-random.php:146 inc/widgets/widget-popular.php:171
+#: inc/widgets/widget-recent.php:170 inc/widgets/widget-views.php:147
+msgid "显示文章日期?"
+msgstr ""
+
+#: inc/widgets/widget-popular.php:23
+msgid "显示评论最多的文章（带缩略图）"
+msgstr ""
+
+#. $this->id_base
+#: inc/widgets/widget-popular.php:29
+msgid "&raquo; 评论最多的文章"
+msgstr ""
+
+#: inc/widgets/widget-popular.php:146
+msgid "评论最多的文章"
+msgstr ""
+
+#: inc/widgets/widget-recent.php:23
+msgid "显示最新的文章（带缩略图）"
+msgstr ""
+
+#. $this->id_base
+#: inc/widgets/widget-recent.php:29
+msgid "&raquo; 最新的文章"
+msgstr ""
+
+#: inc/widgets/widget-recent.php:145
+msgid "近期文章"
+msgstr ""
+
+#: inc/widgets/widget-views.php:23
+msgid "显示浏览次数最多的文章（带缩略图）"
+msgstr ""
+
+#. $this->id_base
+#: inc/widgets/widget-views.php:29
+msgid "&raquo; 浏览最多的文章"
+msgstr ""
+
+#: inc/widgets/widget-views.php:122
+msgid "浏览最多的文章"
+msgstr ""
+
+#: inc/widgets/widget-ad.php:23
+msgid "插入广告代码即可展示相应广告"
+msgstr ""
+
+#. $this->id_base
+#: inc/widgets/widget-ad.php:30
+msgid "&raquo; 广告"
+msgstr ""
+
+#: inc/widgets/widget-ad.php:104
+msgid "广告代码"
+msgstr ""
+
+#. Name of the theme
+msgid "Boke 2"
+msgstr ""
+
+#. Description of the theme
+msgid "博客X是一款由主题巴巴原创的WordPress博客自媒体主题，适合用于各类博客、新闻网站、资讯网站、自媒体网站或个人站点。"
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.zhutibaba.com/themes/boke2"
+msgstr ""
+
+#. Author of the theme
+msgid "主题巴巴"
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "http://www.zhutibaba.com"
+msgstr ""

@@ -1,0 +1,574 @@
+
+/* Responsive CSS Style */
+$accent-1: #037ef3;
+@media only screen and (max-width: 1159px) {
+	.breadcrumbs.is_zhuanti h1 {
+		top: 20px;
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1159px) {
+	.container {
+		width: 950px;
+	}
+	#primary-menu {
+		margin-left: 10px;
+	}
+	.sf-menu li a {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	.sf-menu li li a {
+	}
+	.header-right li {
+		font-size: 14px;
+	}
+	#primary {
+		width: 640px;
+	}
+	#featured-slider {
+		float: none;
+		margin-bottom: 10px;		
+	}
+	#featured-grid {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+		ul li {
+			float: left;
+			width: 32.33333%;
+			margin-right: 1.5%;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	.content-list {
+		.thumbnail-link {
+			width: 210px;
+		}
+		.entry-title {
+			font-size: 1em;
+			margin-bottom: 10px;
+		}
+		.entry-category {
+			display: none;
+		}
+		.entry-summary {
+			font-size: 14px;
+			line-height: 1.6;
+		}
+	}
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	.container {
+		width: 100%;
+	}	
+	.bx-controls-direction {
+		display: none;
+	}	
+	.site-header {
+		height: auto;
+	}
+	.site-branding {
+		height: 50px;
+	}
+	.site-branding #logo {
+		height: 50px;
+	}
+	.site-branding img {
+		max-height: 46px;
+	}
+	.site-title {
+		line-height: 50px;
+	}
+	.header-right {
+		position: absolute;
+		top: 0;
+		right: 10px;
+		line-height: 50px;
+	}
+	.header-search {
+		top: 50px;
+	}
+	#primary-menu {
+		margin: 0;
+		padding: 9px 0;
+		&:after {
+			clear: both;
+			content: " ";
+			display: block;
+		}
+	}
+	.sf-menu {
+		clear: both;
+		float: none;
+		ul {
+			display: none !important;
+		}
+		li {
+			line-height: 1.5;
+			a,
+			a:hover {
+				color: #fff !important;
+			}
+		}
+	}
+	.sf-arrows .sf-with-ul:after {
+		display: none !important;
+	}
+	.site-content {
+		margin: 0;
+	}
+	#primary {
+		float: none;
+		width: 100%;
+	}
+	.sidebar {
+		display: none;
+	}	
+	#featured-slider {
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;		
+	}
+	#featured-grid {
+		float: none;
+		width: 100%;
+		margin-bottom: 0;
+		ul li {
+			float: left;
+			width: 32.33333%;
+			margin-right: 1.5%;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	.home-zhuanti-section {
+		margin-bottom: 10px;
+	}
+	.site-content {
+		padding-bottom: 10px;
+	}	
+	#secondary {
+		float: none;
+		display: block;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.footer-content {
+		margin-bottom: 10px;
+	}
+	.footer-columns {
+		display: none;
+	}	
+	.icon-contact,
+	.icon-weixin,
+	.icon-weibo {
+		display: none;
+	}
+	.bottom-right {
+		bottom: 5px;
+		.bottom-icon {
+			border: none;
+			box-shadow: 0 0 1px rgba(0,0,0,0.3);
+		}
+	}
+	#site-bottom {
+		text-align: center;
+		.footer-left {
+			float: none;
+			width: 100%;
+		}	
+	}
+	.footer-logo {
+		display: none;
+	}
+	.footer-search {
+		position: static;
+		margin-top: 15px;
+		width: 100%;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#primary-nav {
+		&.tablet_menu_col_1 ul li {
+			width: 100%;
+		}
+		&.tablet_menu_col_2 ul li {
+			width: 50%;
+		}
+		&.tablet_menu_col_3 ul li {
+			width: 33.3333%;
+		}
+		&.tablet_menu_col_4 ul li {
+			width: 25%;
+		}
+		&.tablet_menu_col_5 ul li {
+			width: 20%;
+		}
+		&.tablet_menu_col_6 ul li {
+			width: 16.6666%;
+		}
+		&.tablet_menu_col_7 ul li {
+			width: 14.2857%;
+		}
+		&.tablet_menu_col_8 ul li {
+			width: 12.5%;
+		}
+		&.flexible-menu {
+		}				
+	} 	
+	.site-footer {
+		margin: 0;
+	}
+	#featured-grid,
+	.popular-content,
+	.related-content {
+		.entry-meta {
+			display: none;
+		}
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	#primary-nav {
+		&.phone_menu_col_1 ul li {
+			width: 100%;
+		}
+		&.phone_menu_col_2 ul li {
+			width: 50%;
+		}
+		&.phone_menu_col_3 ul li {
+			width: 33.3333%;
+		}
+		&.phone_menu_col_4 ul li {
+			width: 25%;
+		}
+		&.phone_menu_col_5 ul li {
+			width: 20%;
+		}
+		&.phone_menu_col_6 ul li {
+			width: 16.6666%;
+		}
+		&.phone_menu_col_7 ul li {
+			width: 14.2857%;
+		}
+		&.phone_menu_col_8 ul li {
+			width: 12.5%;
+		}
+		&.flexible-menu {
+
+		}				
+	} 	
+	.home-zhuanti-section {
+		padding: 20px 10px 0 10px;
+	}
+	.home-zhuanti-list {
+		padding-top: 10px;
+	}
+	.posts-nav-menu {
+		display: none;
+	}
+	.breadcrumbs,
+	.recent-heading {
+		margin: 0 10px;
+	}
+	.content-ad {
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+	.content-list {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.single #primary {
+		.entry-author {
+			display: none;
+		}
+		.entry-footer {
+			.entry-tags {
+				float: none;
+				.tag-links span {
+					display: none;
+				}
+			}
+			.entry-footer-right {
+				float: none;
+				margin-top: 10px;
+			}
+		}
+	}
+	.custom-share:before {
+		display: none;
+	}
+	.site-footer {
+		margin: 0;
+	}
+	.error-404 {
+		.page-content .search-form input.search-field {
+			width: 200px;
+		}
+	}
+	.comment-form {
+		.comment-form-author,
+		.comment-form-email,
+		.form-submit {
+			float: none;
+			width: auto;
+			padding: 10px 10px 0 10px;
+		}
+		.form-submit {
+			padding-bottom: 12px;
+		}
+	}
+	/* CUSTOM CSS */
+	.my-products-section {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 15px 10px 10px 10px;		
+	}
+	.my-product {
+		border-bottom: 1px solid #efefef;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+		text-align: left;
+		&:last-child {
+			border-bottom: none;
+			margin-bottom: 0;
+			padding-bottom: 20px;
+		}
+		&:after {
+			content: " ";
+			clear: both;
+			display: block;
+		}
+		.product-thumb {
+			float: left;
+			width: 150px;
+			margin: 0 15px 0 0;
+		}
+	}	
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.content-list {
+		.thumbnail-link {
+			width: 32%;
+			margin-right: 15px;
+		}
+		.entry-title {
+			font-size: 1.1em;
+			margin-bottom: 8px;
+		}
+		.entry-meta {
+			.entry-date,
+			.entry-category {
+				display: none;
+			}
+		}
+		.gallery-list {
+			margin: 10px 0;
+		}
+		.entry-summary {
+			display: none;
+		}
+	}
+	.single {
+		.site-main {
+			padding: 20px;
+		}
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	#primary {
+	}
+	.site-content {
+		padding-bottom: 5px;
+	}	
+	.site-title {
+		font-size: 24px;
+	}
+	.header-right li {
+		font-size: 13px;
+		margin-left: 10px;
+	}
+	.sf-menu li a {
+		font-size: 14px;
+	}
+	#featured-slider {
+		margin-bottom: 6px;
+		.bx-wrapper .bx-pager {
+			right: 10px;
+			bottom: 9px;
+		}		
+		.featured-slide {
+			.entry-header {
+				height: 36px;
+			}
+			.entry-title {
+				font-size: 0.95em;
+				padding: 0 70px 0 8px;
+				line-height: 36px;
+			}	
+		}
+	}
+	#featured-grid .entry-title {
+		font-size: 12px;
+	}
+	.single .site-main,
+	#site-bottom {
+		padding: 10px;
+	}
+	.content-list {
+		.hentry {
+			padding: 10px 0;
+		}
+		.thumbnail-link {
+			width: 32%;
+			margin: 0 10px 0 0;
+			img {
+			}
+		}
+		.entry-title {
+			font-size: 1em;
+			font-weight: normal;
+			margin-bottom: 5px;
+		}
+		.gallery-list {
+			margin: 10px 0;
+			padding-bottom: 22px;
+		}
+		.entry-summary,
+		.entry-date,
+		.entry-category {
+			display: none;
+		}
+		.entry-meta {
+			font-size: 12px;
+			bottom: 10px;
+			.entry-category,
+			.entry-like,
+			.entry-comment {
+				margin-left: 0;
+				margin-right: 10px !important;
+			}
+		}
+	}	
+	.breadcrumbs.is_zhuanti {
+		margin: 0 0 10px 0;
+		padding: 0;
+		h1 {
+			font-size: 1em;
+			top: 0;
+			padding: 0 10px;
+			height: 30px;
+			line-height: 30px;			
+		}
+	}
+	.single-breadcrumbs {
+		margin-bottom: 10px;
+	}
+	.zhuanti-heading .desc,
+	.friend .friend-desc,
+	.author-box .avatar,
+	.related-content .entry-meta {
+		display: none;
+	}
+	.custom-share {
+		display: none !important;
+	}
+	.pagination .page-numbers {
+		font-size: 13px;
+		padding: 0 6px;
+		height: 30px;
+		line-height: 30px;
+	}	
+	.page-title,
+	.single h1.entry-title, 
+	.page h1.entry-title {
+		font-size: 1.2em;
+		margin-bottom: 10px;
+	}
+	.single,
+	.page {
+		.site-main {
+			padding: 10px;
+		}		
+	}
+	.single {
+		#primary .entry-header {
+			margin-bottom: 10px;
+		}
+		.gallery-slider {
+			li {
+				img {
+					margin-bottom: 0;
+				}
+				.image-desc {
+					background-color: #333;
+					position: static;
+					padding-left: 3%;
+					padding-right: 3%;
+					width: 94%;
+				}
+			}
+		}
+	}
+	.bx-wrapper {
+		.bx-controls-direction {
+			display: none;
+		}	
+	}
+	.entry-tags {
+		float: none;
+		text-align: center;
+		span span {
+			display: none;
+		}
+		.tag-links a {
+			font-size: 12px;
+		}
+	}
+	.custom-share {
+		float: none;
+	}
+	#comments,
+	.comment-respond {
+		.comment-metadata {
+			display: none;
+		}
+	}
+	.modal-content {
+		width: 290px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.entry-source,
+	.footer-partners {
+		display: none;
+	}
+	.friend {
+		padding-bottom: 0;
+	}
+	.footer-content {
+		padding: 15px 10px 10px 10px;
+	}
+	.friend-nav li {
+		margin-right: 10px;
+	}
+	#site-bottom .footer-nav li {
+		margin-right: 10px;
+	}
+	.sidebar .widget {
+		margin-bottom: 10px;
+		padding: 15px 10px 10px 10px;
+	}
+}
