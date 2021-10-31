@@ -1,0 +1,91 @@
+/*
+Theme Name:     B2子主题
+Theme URI:      http: //7b2.com/
+Description:    Child theme for the seven
+Author:         子主题模版
+Author URI:     http: //7b2.com/
+Template:       b2
+Version:        0.1.5
+*/
+
+/*下面是您自己DIY的css样式代码*/
+.login-box-content .login-box-top {
+    background-image: url(https://pic.rmb.bdstatic.com/bjh/8270b0ebee4f504bfd938c2283503bc7.png);
+}
+.gdd-quick-link-buy-vip__popover>div{
+    background-image: url(https://pic.rmb.bdstatic.com/bjh/ea0c94d2706632923cedf642fbdf5512.png);
+}
+.content-hidden-info{
+    position: relative;
+    background-image: url(https://pic.rmb.bdstatic.com/bjh/4a766c3a25e786d0e15fe5ee7a2f20aa.png);
+}
+.post-thumb-text {
+    position:absolute;
+    padding: 10%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    color: white;
+    background: rgb(0 128 128 / 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    font-size: 18px;
+    text-shadow: 0px 1px 1px #555;  
+    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+}
+.post-item-qita .post-thumb-text {
+    padding: 18%;
+    background: rgb(0 128 128 / 0.5);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}    
+.post-thumb-text-little {
+    font-size: 12px;
+}
+.post-meta-right button {
+    margin-left: 10px;
+}
+.entry-content img {
+    width: 650px;
+    max-width: 75%;
+}
+.entry-content .content-cap {
+    margin: 80px 0;
+}
+/*加载更多*/
+.post-list .load-more button {
+    padding: 12px 40px;
+    font-size: 15px;
+    letter-spacing: .5px;
+    background-image: linear-gradient(90deg, #008080, #00c5c5);
+    color: #fff!important;
+}
+.load-more.box-in.box.b2-radius.mg-t {
+    margin: auto;
+    width: fit-content;
+    top: 25px;
+    margin-bottom: 35px;
+}
+.post-list-cats a span {
+    background-color: rgba(0, 128, 128, 0.18);
+}
+div#comment-form.mg-t {
+    width: auto;
+}
+.item-in.box.b2-radius {
+    margin-left: 10px;
+    margin-bottom: 22px;
+    margin-right: 12px;
+}
+.box, .side-fixed {
+    box-shadow: 1px 1px 2px rgb(98 124 153 / 100%);
+}
+.vip-top > div {
+    padding: 30px 0;
+}
+.post-modules-top {
+    margin-bottom: 20px;
+    padding: 12px 12px 12px 12px!important;
+}
