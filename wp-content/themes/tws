@@ -1,0 +1,64 @@
+/*
+Theme Name:     B2子主题
+Theme URI:      http: //7b2.com/
+Description:    Child theme for the B2 PRO
+Author:         子主题模版
+Author URI:     http: //7b2.com/
+Template:       b2
+Version:        0.1.5
+*/
+
+/*下面是您自己DIY的css样式代码*/
+.cosercount {
+    float: right;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    color: #fff;
+}
+.b2-mg img {
+    width: 100%;
+    height: 185px !important;
+    border-radius: 10px !important;
+    display: inline-block !important;
+}
+.b2-mg {
+    position: relative;
+    height: 185px;
+    padding: 0px !important;
+    border-radius: 10px !important;
+    box-shadow: 1px 2px 5px #666;
+    border: none !important;
+}
+.coserinfo {
+    position: relative;
+    top: -35px;
+    color: #fff !important;
+}
+.cosername {
+    float: left;
+    padding-left: 10px;
+}
+p.yulan {
+    background-color: #F5F6F7;
+    padding: 5%;
+}
+.entry-content > h2 {
+    text-align: center;
+    color: #fff;
+    text-shadow: black 5px 5px 5px;
+}
+.tags-page ul li {
+    margin: 10px 0;
+    width: 20%;
+}
+.entry-content blockquote:before {
+    background-image: none;
+    height: 0;
+}
+@media screen and (max-width: 768px){
+.tags-page ul li {
+    width: 50%;
+}
+}
