@@ -23,7 +23,7 @@ Version:        0.1.5
     border-radius: 10px !important;
     display: inline-block !important;
 }
-.b2-mg {
+.box.b2-radius.b2-mg {
     position: relative;
     height: 185px;
     padding: 0px !important;
