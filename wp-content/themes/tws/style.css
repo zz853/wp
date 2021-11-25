@@ -57,6 +57,9 @@ p.yulan {
     background-image: none;
     height: 0;
 }
+.collection-item {
+    width: 33.3%;
+}
 @media screen and (max-width: 768px){
 .tags-page ul li {
     width: 50%;
