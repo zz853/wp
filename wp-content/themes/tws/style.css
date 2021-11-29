@@ -1,9 +1,5 @@
 /*
-Theme Name:     B2子主题
-Theme URI:      http: //7b2.com/
-Description:    Child theme for the B2 PRO
-Author:         子主题模版
-Author URI:     http: //7b2.com/
+Theme Name:     tws
 Template:       b2
 Version:        0.1.5
 */
@@ -19,13 +15,13 @@ Version:        0.1.5
 }
 .b2-mg img {
     width: 100%;
-    height: 185px !important;
+    height: 170px !important;
     border-radius: 10px !important;
     display: inline-block !important;
 }
 .box.b2-radius.b2-mg {
     position: relative;
-    height: 185px;
+    height: 170px;
     padding: 0px !important;
     border-radius: 10px !important;
     box-shadow: 1px 2px 5px #666;
@@ -46,12 +42,8 @@ p.yulan {
 }
 .entry-content > h2 {
     text-align: center;
-    color: #fff;
-    text-shadow: black 5px 5px 5px;
-}
-.tags-page ul li {
-    margin: 10px 0;
-    width: 20%;
+    color: #eeee;
+    text-shadow: black 3px 3px 5px;
 }
 .entry-content blockquote:before {
     background-image: none;
@@ -60,8 +52,148 @@ p.yulan {
 .collection-item {
     width: 33.3%;
 }
-@media screen and (max-width: 768px){
-.tags-page ul li {
-    width: 50%;
+.load-more.box-in.box.b2-radius.mg-t {
+    background: none;
+    box-shadow: none;
 }
+.post-list .load-more button {
+    color: #fff!important;
+    background-image: linear-gradient(90deg, #006eff, #13adff);
+    width: auto;
+    transition: all .3s;
+    padding: 12px 40px;
+    font-size: 15px;
+    letter-spacing: .5px;
+    background-color: var(--primary-color);
+}
+.social-top .header-banner-left .menu li a {
+    font-size: 13px;
+}
+.single-article {
+    padding: 50px;
+}
+.html-widget {
+    padding: 0;
+}
+.widget ul li {
+    padding: 10px;
+}
+.shangjing {
+    padding: 10px 0;
+}
+.post-tags-meat a {
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 2px;
+    padding: 5px;
+    text-decoration: underline;
+}
+.html {
+    display: flex;
+}
+.html .widget-area {
+    padding: 0 16px 0 0;
+}
+.html ul li {
+    width: 20%;
+}
+.html .box.b2-radius.b2-mg {
+    height: 150px;
+}
+.html .b2-mg img {
+    height: 150px !important;
+}
+.content-copyright {
+color: #fff!important;
+display: flex;
+justify-content: center;
+flex-flow: column;
+margin-top: 20px;
+padding: 20px;
+border-radius: 6px;
+position: relative;
+background-image: linear-gradient(120deg, #48c6ef 0%, #6f86d6 100%);
+box-shadow: 0 0 0.0625rem 0 rgba(8,11,14,.06), 0 0.1875rem 0.1875rem -0.0625rem rgba(8,11,14,.1), 0 0 0.1875rem 0 rgba(8,11,14,.02);
+font-size: 14px!important;
+margin-bottom: 0!important;
+}
+.content-copyright a{
+color: #fff!important;
+}
+.content-copyright p{
+font-size: 14px!important;
+margin: .5em 0;
+}
+.announcement {
+    background-image: -webkit-gradient(linear,left top,right top,from(#fff2ec),color-stop(42%,#f0f1f6),to(#e1f0ff));
+    background-image: linear-gradient(90deg,#fff2ec 0,#f0f1f6 42%,#e1f0ff 100%);
+}
+.widget-mission-footer a {
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    border-bottom: 2px solid #F5F6F7;
+    font-weight: 600;
+}
+.user-w-announcement li a {
+    white-space: normal;
+}
+.gonggao {
+    background-color: #fff3cd;
+    padding: 1em;
+    font-size: 0.9em;
+}
+.spinner-grow {
+    margin-left: 2px;
+    margin-bottom: 8px;
+    display: inline-block;
+    background-color: currentColor;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-animation: .75s linear infinite spinner-grow;
+    animation: .75s linear infinite spinner-grow;
+}
+.badge {
+    background-color: #dc3545;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.8em;
+    padding: 0.35em .65em;
+    border-radius: .25em;
+    line-height: 2.5em;
+}
+.text-dark {
+    color: #212529;
+    background-color: #ffc107;
+}
+.xiaojiejie {
+    padding: 10px 16px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+.html ul li {
+    width: 33.3%;
+}
+.collection-item {
+    width: 100%;
+}
+.single-article {
+    padding: 12px;
+}
+p.yulan {
+    padding: 2%;
+}
+.html {
+    flex-flow: column;
+}
+}
+
+@keyframes spinner-grow {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: none;
+  }
 }
