@@ -1,4 +1,4 @@
-var images1=
+var image=
 [
   "0069iMVdgy1g6h4e1asoqj30j60ruju8",
   "0069iMVdgy1g6h4e19ppwj30j60nignx",
@@ -51,7 +51,7 @@ var images1=
 function btn(){                 
   var img=document.getElementById("img");
   var ran=Math.floor((Math.random()*images.length));;                       
-  img.src="https://tvax1.sinaimg.cn/mw690/"+images1[ran]+".jpg";
+  img.src="https://tvax1.sinaimg.cn/mw690/"+image[ran]+".jpg";
 }
 //定时器
 window.onload =function(){
