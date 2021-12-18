@@ -9,5 +9,3 @@ window.onload =function(){
   setInterval(btn,100000);//设置多久执行一次,1000毫秒=1秒
 }
 window.onload()
-//
-LA.init({id: "JXMge6WRTh77Y3as",ck: "JXMge6WRTh77Y3as"})
