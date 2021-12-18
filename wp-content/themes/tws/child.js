@@ -50,7 +50,7 @@ var image=
 ]
 function btn(){                 
   var img=document.getElementById("img");
-  var ran=Math.floor((Math.random()*images.length));;                       
+  var ran=Math.floor((Math.random()*image.length));;                       
   img.src="https://tvax1.sinaimg.cn/mw690/"+image[ran]+".jpg";
 }
 //定时器
