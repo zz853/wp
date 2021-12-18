@@ -1,8 +1,57 @@
-//点击随机更换图片
+var images1=
+[
+  "0069iMVdgy1g6h4e1asoqj30j60ruju8",
+  "0069iMVdgy1g6h4e19ppwj30j60nignx",
+  "006Dm2scly1gww40lmkjzj30u015oada",
+  "006Dm2scly1gww40lwr5gj30u015a0vz",
+  "003ycnhDly1gvj9te8a62j60u013zk2j02",
+  "003ycnhDly1gvj9teq5kxj60u013zk2002",
+  "008cuS2igy1guxustobsoj60zk1bek4s02",
+  "008cuS2igy1guxussjhutj60vk162tmq02",
+  "008gmo4oly8gwtpwqnaq9j30u013zgor",
+  "008gmo4oly8gwtpwqz8efj30u013zn00",
+  "003ycnhDly1gvjkgbx7k5j60zk1bewh102",
+  "003ycnhDly1gvjkgc4y1hj60zk1be40w02",
+  "003ycnhDly1gvjkgcdj5lj60zk1beq5i02",
+  "003ycnhDly1gvjkgclu1zj60zk1be76l02",
+  "003ycnhDly1gvjkgd3vj3j60zk1hc76a02",
+  "003ycnhDly1gvjkgdmaouj60zk1hcdhz02",
+  "008gmo4oly8gwtykye52oj30u0141die",
+  "008gmo4oly8gwtwufptfnj30pv0yg75r",
+  "0069iMVdgy1g5olbx3dxvj30j60nywfy",
+  "0069iMVdgy1g5olbx3xqkj30j60ny3zz",
+  "0069iMVdgy1g5olbx23uuj30j60nymya",
+  "0069iMVdgy1g5olbx39zcj30j60nygnl",
+  "0069iMVdgy1g5olbx30fuj30j60nywfy",
+  "0069iMVdgy1g5olbx75tuj30j60ny40h",
+  "0069iMVdgy1g5olbx98bbj30j60nytae",
+  "0069iMVdgy1g5olbx2r0wj30j60lgta2",
+  "007XJfjMgy1gwwnjb857wj30ku0uw14q",
+  "007XJfjMgy1gwwnkdrz52j30ku0uxk8f",
+  "008caCGOgy1gxav3echs7j32ax32lu0y",
+  "007XJfjMgy1gwwnlg0g4wj30ku0uvn5p",
+  "0079dcLyly1guyi1r4y3oj60u014078a02",
+  "006q8gNAgy1gxb0eishacj30u011e78i",
+  "0079ppojgy1garz29l0t8j30u017nakw",
+  "0079ppojgy1garz2b9y5gj30u017n0z5",
+  "0079ppojgy1garz2blrxmj30u017njx0",
+  "0079ppojgy1garz2ckxurj30u017ndlu",
+  "0079ppojgy1garz2d04lhj30u017n0y3",
+  "c1f02f01ly1gtu5zh0yvcj20u013zqcp",
+  "006Ax4APgy1g3rl9a45zuj30u017ngq0",
+  "006Ax4APgy1g3rl9aqij7j30u017n7am",
+  "0089cMtwly1gx8udipf4nj33gg56oe86",
+  "0089cMtwly1gxb0fq9xfxj33gg56o4qv",
+  "0089cMtwly1gxb0fsfss5j33gg56ob2e",
+  "008cuS2igy1gwzjv0ll7oj30u01400ww",
+  "97cd0510ly1fwnsuorip7j20iw0qjh1x",
+  "c4af552fgy1ge4ncce8qqj20u017n7wl",
+  "c4af552fgy1ge4ncsw88bj20u017okjq"
+]
 function btn(){                 
   var img=document.getElementById("img");
   var ran=Math.floor((Math.random()*images.length));;                       
-  img.src="https://tvax1.sinaimg.cn/mw690/"+images[ran]+".jpg";
+  img.src="https://tvax1.sinaimg.cn/mw690/"+images1[ran]+".jpg";
 }
 //定时器
 window.onload =function(){
